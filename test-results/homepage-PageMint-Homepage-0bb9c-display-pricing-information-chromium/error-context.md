@@ -1,0 +1,396 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img [ref=e8]
+        - button "PageMint" [ref=e11] [cursor=pointer]
+      - generic [ref=e12]:
+        - button "Templates" [ref=e13] [cursor=pointer]
+        - button "Features" [ref=e14] [cursor=pointer]
+        - button "Pricing" [ref=e15] [cursor=pointer]
+        - button "FAQ" [ref=e16] [cursor=pointer]
+        - button "Get Templates" [ref=e17] [cursor=pointer]
+  - main [ref=e18]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - img [ref=e24]
+        - heading "PageMint" [level=1] [ref=e27]
+      - generic [ref=e28]:
+        - img [ref=e29]
+        - text: Ready-to-Deploy Templates
+      - heading "Launch Your SaaS in Hours Not Weeks" [level=2] [ref=e31]:
+        - text: Launch Your SaaS
+        - generic [ref=e32]: in Hours
+        - text: Not Weeks
+      - paragraph [ref=e33]: Professional SaaS landing page templates for indie hackers, startups, and agencies. Launch conversion-optimized websites in hours, not weeks. Mobile-first design with premium aesthetics.
+      - generic [ref=e34]:
+        - button "Get Pro Pack - $59" [ref=e35] [cursor=pointer]:
+          - img [ref=e36] [cursor=pointer]
+          - img [ref=e38] [cursor=pointer]
+          - text: Get Pro Pack - $59
+          - img [ref=e41] [cursor=pointer]
+        - link "View Live Demos" [ref=e43] [cursor=pointer]:
+          - /url: "#showcase"
+      - generic [ref=e44]:
+        - generic [ref=e45]: 5 Premium Templates
+        - generic [ref=e47]: Conversion Optimized
+        - generic [ref=e49]: Production Ready
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - heading "5 Production-Ready Template Variations" [level=2] [ref=e57]
+        - paragraph [ref=e58]: Each template includes all essential SaaS sections with unique visual personalities and conversion-optimized layouts. Choose the style that matches your brand perfectly.
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - img [ref=e65]
+          - generic [ref=e67]:
+            - heading "Minimalist Clean" [level=3] [ref=e68]
+            - paragraph [ref=e69]: Plain typography with pastel accents for a clean, professional look
+            - generic [ref=e70]:
+              - generic [ref=e71]: "Template #1"
+              - link "Live Demo →" [ref=e72] [cursor=pointer]:
+                - /url: /templates/minimalist-clean.html?v=1758664511954
+        - generic [ref=e74]:
+          - img [ref=e78]
+          - generic [ref=e84]:
+            - heading "Gradient Startup" [level=3] [ref=e85]
+            - paragraph [ref=e86]: Eye-catching gradient backgrounds with modern card layouts
+            - generic [ref=e87]:
+              - generic [ref=e88]: "Template #2"
+              - link "Live Demo →" [ref=e89] [cursor=pointer]:
+                - /url: /templates/gradient-startup.html?v=1758664511954
+        - generic [ref=e91]:
+          - img [ref=e95]
+          - generic [ref=e97]:
+            - heading "Dark Mode Tech" [level=3] [ref=e98]
+            - paragraph [ref=e99]: Sleek dark theme with neon CTAs for tech-forward brands
+            - generic [ref=e100]:
+              - generic [ref=e101]: "Template #3"
+              - link "Live Demo →" [ref=e102] [cursor=pointer]:
+                - /url: /templates/dark-mode-tech.html?v=1758664511954
+        - generic [ref=e104]:
+          - img [ref=e108]
+          - generic [ref=e110]:
+            - heading "Playful SaaS" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Rounded cards and friendly icons for approachable brands
+            - generic [ref=e113]:
+              - generic [ref=e114]: "Template #4"
+              - link "Live Demo →" [ref=e115] [cursor=pointer]:
+                - /url: /templates/playful-saas.html?v=1758664511954
+        - generic [ref=e117]:
+          - img [ref=e121]
+          - generic [ref=e124]:
+            - heading "Professional B2B" [level=3] [ref=e125]
+            - paragraph [ref=e126]: Muted colors and corporate layout for enterprise clients
+            - generic [ref=e127]:
+              - generic [ref=e128]: "Template #5"
+              - link "Live Demo →" [ref=e129] [cursor=pointer]:
+                - /url: /templates/professional-b2b.html?v=1758664511954
+      - generic [ref=e132]: "All templates include: Hero • Features • Pricing • Testimonials • FAQ • CTA"
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - heading "Everything You Need to Launch Successfully" [level=2] [ref=e137]
+        - paragraph [ref=e138]: Skip months of design and development. Launch with conversion-optimized, professional landing pages that turn visitors into customers from day one.
+      - generic [ref=e139]:
+        - generic [ref=e141]:
+          - img [ref=e143]
+          - heading "Mobile-First Responsive" [level=3] [ref=e145]
+          - paragraph [ref=e146]: Designed mobile-first using TailwindCSS responsive utilities. Flawless performance across all devices with Google PageSpeed optimization.
+        - generic [ref=e148]:
+          - img [ref=e150]
+          - heading "Clean HTML + TailwindCSS" [level=3] [ref=e153]
+          - paragraph [ref=e154]: Production-ready HTML5 with TailwindCSS utility classes. Semantic markup, accessibility compliant, and developer-friendly structure.
+        - generic [ref=e156]:
+          - img [ref=e158]
+          - heading "SEO & Meta Ready" [level=3] [ref=e161]
+          - paragraph [ref=e162]: Complete SEO foundation with optimized meta tags, Open Graph data, structured markup, and Core Web Vitals optimization.
+        - generic [ref=e164]:
+          - img [ref=e166]
+          - heading "Deploy in Minutes" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Zero build process required - just customize and deploy to Vercel, Netlify, GitHub Pages, or any static hosting provider.
+        - generic [ref=e171]:
+          - img [ref=e173]
+          - heading "Easy Customization" [level=3] [ref=e177]
+          - paragraph [ref=e178]: Customize everything using CSS variables and simple HTML edits. Comprehensive guides included - no design experience needed.
+        - generic [ref=e180]:
+          - img [ref=e182]
+          - heading "Production Ready" [level=3] [ref=e184]
+          - paragraph [ref=e185]: Battle-tested code with cross-browser compatibility, WCAG accessibility standards, and performance optimizations built-in.
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - heading "Simple, Transparent Pricing" [level=2] [ref=e190]
+        - paragraph [ref=e191]: One-time purchase. Lifetime access. No subscriptions or hidden fees.
+      - generic [ref=e192]:
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - heading "Starter Pack" [level=3] [ref=e195]
+            - generic [ref=e196]:
+              - generic [ref=e197]: $29
+              - generic [ref=e198]: one-time
+            - paragraph [ref=e199]: Perfect for indie hackers
+          - list [ref=e200]:
+            - listitem [ref=e201]:
+              - img [ref=e202]
+              - generic [ref=e204]: 2 Template Variations
+            - listitem [ref=e205]:
+              - img [ref=e206]
+              - generic [ref=e208]: HTML + TailwindCSS
+            - listitem [ref=e209]:
+              - img [ref=e210]
+              - generic [ref=e212]: Mobile Responsive
+            - listitem [ref=e213]:
+              - img [ref=e214]
+              - generic [ref=e216]: Basic SEO Setup
+            - listitem [ref=e217]:
+              - generic [ref=e218]: ℹ
+              - generic [ref=e219]: Personal & Learning Use
+          - button "Get Starter Pack" [ref=e220] [cursor=pointer]:
+            - img [ref=e221] [cursor=pointer]
+            - text: Get Starter Pack
+        - generic [ref=e223]:
+          - generic [ref=e225]:
+            - img [ref=e226]
+            - text: Most Popular
+          - generic [ref=e228]:
+            - heading "Pro Pack" [level=3] [ref=e229]
+            - generic [ref=e230]:
+              - generic [ref=e231]: $59
+              - generic [ref=e232]: one-time
+            - paragraph [ref=e233]: Best value for agencies
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - img [ref=e236]
+              - generic [ref=e238]: All 5 Template Variations
+            - listitem [ref=e239]:
+              - img [ref=e240]
+              - generic [ref=e242]: HTML + TailwindCSS
+            - listitem [ref=e243]:
+              - img [ref=e244]
+              - generic [ref=e246]: Mobile Responsive
+            - listitem [ref=e247]:
+              - img [ref=e248]
+              - generic [ref=e250]: Advanced SEO Setup
+            - listitem [ref=e251]:
+              - img [ref=e252]
+              - generic [ref=e254]: Customization Guide
+            - listitem [ref=e255]:
+              - generic [ref=e256]: ℹ
+              - generic [ref=e257]: Personal & Learning Use
+          - button "Get Pro Pack" [ref=e258] [cursor=pointer]:
+            - img [ref=e259] [cursor=pointer]
+            - text: Get Pro Pack
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - heading "Agency Pack" [level=3] [ref=e263]
+            - paragraph [ref=e264]: Complete solution for agencies
+            - generic [ref=e265]:
+              - generic [ref=e266]: $99
+              - generic [ref=e267]: one-time
+            - paragraph [ref=e268]: Everything + React versions
+          - list [ref=e269]:
+            - listitem [ref=e270]:
+              - img [ref=e271]
+              - generic [ref=e273]: Everything in Pro
+            - listitem [ref=e274]:
+              - img [ref=e275]
+              - generic [ref=e277]: React + Next.js Versions
+            - listitem [ref=e278]:
+              - img [ref=e279]
+              - generic [ref=e281]: Figma Source Files
+            - listitem [ref=e282]:
+              - img [ref=e283]
+              - generic [ref=e285]: White-label Rights
+            - listitem [ref=e286]:
+              - img [ref=e287]
+              - generic [ref=e289]: Priority Support
+            - listitem [ref=e290]:
+              - generic [ref=e291]: ℹ
+              - generic [ref=e292]: Commercial Use
+          - button "Contact for Pricing" [disabled] [ref=e293]
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - paragraph [ref=e296]: "📝 Current License: Personal & Learning Use"
+          - paragraph [ref=e297]: 📝 Personal Use License
+          - paragraph [ref=e298]: Perfect for personal portfolios, learning projects, and non-commercial websites. Commercial licensing available - contact support@pagemint.com for enterprise options.
+        - paragraph [ref=e299]: Instant download • Lifetime updates • Premium support • Comprehensive documentation
+    - generic [ref=e302]:
+      - generic [ref=e303]:
+        - heading "Loved by Makers Worldwide" [level=2] [ref=e304]
+        - paragraph [ref=e305]: Join hundreds of successful founders who launched faster with our templates.
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - img [ref=e309]
+            - img [ref=e311]
+            - img [ref=e313]
+            - img [ref=e315]
+            - img [ref=e317]
+          - generic [ref=e319]:
+            - img [ref=e320]
+            - paragraph [ref=e323]: PageMint templates saved me weeks of design work. I had my SaaS landing page live in under 4 hours and secured my first paying customer that same week. The code quality and design are exceptional.
+          - generic [ref=e324]:
+            - img "Sarah Chen" [ref=e325]
+            - generic [ref=e326]:
+              - generic [ref=e327]: Sarah Chen
+              - generic [ref=e328]: Indie Hacker
+              - generic [ref=e329]: "@DataFlowAI"
+        - generic [ref=e330]:
+          - generic [ref=e331]:
+            - img [ref=e332]
+            - img [ref=e334]
+            - img [ref=e336]
+            - img [ref=e338]
+            - img [ref=e340]
+          - generic [ref=e342]:
+            - img [ref=e343]
+            - paragraph [ref=e346]: As an agency, we've delivered 15+ projects using PageMint templates. The clean code structure and conversion-optimized designs consistently exceed client expectations. We've reduced development time by 75%.
+          - generic [ref=e347]:
+            - img "Marcus Rodriguez" [ref=e348]
+            - generic [ref=e349]:
+              - generic [ref=e350]: Marcus Rodriguez
+              - generic [ref=e351]: Agency Owner
+              - generic [ref=e352]: PixelCraft Studio
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - img [ref=e355]
+            - img [ref=e357]
+            - img [ref=e359]
+            - img [ref=e361]
+            - img [ref=e363]
+          - generic [ref=e365]:
+            - img [ref=e366]
+            - paragraph [ref=e369]: PageMint was a game-changer for our startup. We launched CloudSync Pro in one weekend instead of waiting months for custom design. The ROI has been incredible - we've already generated 60x our investment.
+          - generic [ref=e370]:
+            - img "Emma Thompson" [ref=e371]
+            - generic [ref=e372]:
+              - generic [ref=e373]: Emma Thompson
+              - generic [ref=e374]: SaaS Founder
+              - generic [ref=e375]: CloudSync Pro
+    - generic [ref=e378]:
+      - generic [ref=e379]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e380]
+        - paragraph [ref=e381]: Everything you need to know about PageMint.
+      - generic [ref=e382]:
+        - button "What do I get exactly?" [ref=e384] [cursor=pointer]:
+          - generic [ref=e385] [cursor=pointer]:
+            - heading "What do I get exactly?" [level=3] [ref=e386] [cursor=pointer]
+            - img [ref=e388] [cursor=pointer]
+        - button "What's the license for commercial use?" [ref=e391] [cursor=pointer]:
+          - generic [ref=e392] [cursor=pointer]:
+            - heading "What's the license for commercial use?" [level=3] [ref=e393] [cursor=pointer]
+            - img [ref=e395] [cursor=pointer]
+        - button "How easy is customization?" [ref=e398] [cursor=pointer]:
+          - generic [ref=e399] [cursor=pointer]:
+            - heading "How easy is customization?" [level=3] [ref=e400] [cursor=pointer]
+            - img [ref=e402] [cursor=pointer]
+        - button "Are the templates mobile responsive?" [ref=e405] [cursor=pointer]:
+          - generic [ref=e406] [cursor=pointer]:
+            - heading "Are the templates mobile responsive?" [level=3] [ref=e407] [cursor=pointer]
+            - img [ref=e409] [cursor=pointer]
+        - button "Do you offer refunds?" [ref=e412] [cursor=pointer]:
+          - generic [ref=e413] [cursor=pointer]:
+            - heading "Do you offer refunds?" [level=3] [ref=e414] [cursor=pointer]
+            - img [ref=e416] [cursor=pointer]
+        - button "Will there be updates?" [ref=e419] [cursor=pointer]:
+          - generic [ref=e420] [cursor=pointer]:
+            - heading "Will there be updates?" [level=3] [ref=e421] [cursor=pointer]
+            - img [ref=e423] [cursor=pointer]
+        - button "Can I get help with setup?" [ref=e426] [cursor=pointer]:
+          - generic [ref=e427] [cursor=pointer]:
+            - heading "Can I get help with setup?" [level=3] [ref=e428] [cursor=pointer]
+            - img [ref=e430] [cursor=pointer]
+    - generic [ref=e434]:
+      - generic [ref=e435]:
+        - img [ref=e436]
+        - text: Launch Today, Not Next Month
+      - heading "Ready to Launch? Start Building Today." [level=2] [ref=e439]:
+        - text: Ready to Launch?
+        - text: Start Building Today.
+      - paragraph [ref=e440]: While others spend months on design, you could be converting customers. Launch your professional SaaS landing page today and start growing your business.
+      - generic [ref=e441]:
+        - button "Get Pro Pack - $59" [ref=e442] [cursor=pointer]:
+          - img [ref=e443] [cursor=pointer]
+          - img [ref=e445] [cursor=pointer]
+          - text: Get Pro Pack - $59
+          - img [ref=e448] [cursor=pointer]
+        - link "View Live Demos" [ref=e450] [cursor=pointer]:
+          - /url: "#showcase"
+      - generic [ref=e451]:
+        - generic [ref=e452]: Instant Download
+        - generic [ref=e454]: Lifetime Updates
+        - generic [ref=e456]: Premium Support
+  - contentinfo [ref=e458]:
+    - generic [ref=e460]:
+      - generic [ref=e461]:
+        - generic [ref=e462]:
+          - img [ref=e463]
+          - heading "PageMint" [level=3] [ref=e466]
+        - paragraph [ref=e467]: Professional SaaS landing page templates for indie hackers, founders, and agencies. Launch beautiful, conversion-optimized websites in hours, not weeks.
+        - generic [ref=e468]:
+          - link "Follow us on Twitter" [ref=e469] [cursor=pointer]:
+            - /url: https://twitter.com/teachmecode_ae
+            - img [ref=e470] [cursor=pointer]
+          - link "View our GitHub" [ref=e472] [cursor=pointer]:
+            - /url: https://github.com/teachmecode-ae
+            - img [ref=e473] [cursor=pointer]
+          - link "Email us" [ref=e476] [cursor=pointer]:
+            - /url: mailto:support@pagemint.com
+            - img [ref=e477] [cursor=pointer]
+      - generic [ref=e480]:
+        - heading "Templates" [level=4] [ref=e481]
+        - list [ref=e482]:
+          - listitem [ref=e483]:
+            - link "Minimalist Clean" [ref=e484] [cursor=pointer]:
+              - /url: /templates/minimalist-clean.html
+          - listitem [ref=e485]:
+            - link "Gradient Startup" [ref=e486] [cursor=pointer]:
+              - /url: /templates/gradient-startup.html
+          - listitem [ref=e487]:
+            - link "Dark Mode Tech" [ref=e488] [cursor=pointer]:
+              - /url: /templates/dark-mode-tech.html
+          - listitem [ref=e489]:
+            - link "Playful SaaS" [ref=e490] [cursor=pointer]:
+              - /url: /templates/playful-saas.html
+          - listitem [ref=e491]:
+            - link "Professional B2B" [ref=e492] [cursor=pointer]:
+              - /url: /templates/professional-b2b.html
+      - generic [ref=e493]:
+        - heading "Support" [level=4] [ref=e494]
+        - list [ref=e495]:
+          - listitem [ref=e496]:
+            - link "Documentation" [ref=e497] [cursor=pointer]:
+              - /url: mailto:support@pagemint.com?subject=Documentation%20Request
+          - listitem [ref=e498]:
+            - link "Live Examples" [ref=e499] [cursor=pointer]:
+              - /url: "#showcase"
+          - listitem [ref=e500]:
+            - link "Contact Support" [ref=e501] [cursor=pointer]:
+              - /url: mailto:support@pagemint.com
+          - listitem [ref=e502]:
+            - link "Pre-Purchase Help" [ref=e503] [cursor=pointer]:
+              - /url: mailto:support@pagemint.com?subject=Pre-Purchase%20Questions
+    - generic [ref=e506]:
+      - generic [ref=e507]: © 2024 PageMint. All rights reserved.
+      - generic [ref=e508]:
+        - text: Built with ❤️ by
+        - link "Biela" [ref=e509] [cursor=pointer]:
+          - /url: https://biela.dev
+        - text: • Powered by
+        - link "TeachMeCode®" [ref=e510] [cursor=pointer]:
+          - /url: https://teachmecode.ae
+  - generic [ref=e511]:
+    - heading "Supabase Connection Status" [level=3] [ref=e512]:
+      - img [ref=e513]
+      - text: Supabase Connection Status
+    - generic [ref=e517]:
+      - generic [ref=e518]:
+        - img [ref=e519]
+        - generic [ref=e522]: "Database Connection: Connected"
+      - generic [ref=e523]:
+        - img [ref=e524]
+        - generic [ref=e526]:
+          - img [ref=e527]
+          - text: "Products: Checking..."
+```

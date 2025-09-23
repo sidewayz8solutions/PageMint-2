@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cross-browser compatibility fixes */
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .backdrop-blur-sm {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+  }
+}
+
+/* Safari-specific fixes */
+@supports (-webkit-appearance: none) {
+  button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+  }
+}
+
+/* iOS Safari touch improvements */
+button, 
+a, 
+[role="button"] {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+/* Custom utility classes */
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 transform hover:scale-105 transition-all duration-200;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.6;
+  color: #0f172a;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+  /* Enhanced mobile-first button styles */
+  .mobile-touch-target {
+    @apply min-h-[44px] min-w-[44px] relative;
+  }
+  
+  /* Cross-browser gradient text support */
+  .gradient-text {
+    background: linear-gradient(135deg, #22c55e 0%, #0ea5e9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  
+  .gradient-text-fallback {
+    color: #22c55e;
+  }
+
+/* Custom gradient text */
+.text-gradient {
+  background: linear-gradient(135deg, #22c55e 0%, #0ea5e9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+  /* Prevent horizontal scroll on mobile */
+  /* overflow-x: hidden; */
+  /* Improve text rendering */
+  /* text-rendering: optimizeLegibility; */
+  /* Better font loading */
+  /* font-display: swap; */
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+  /* Fix viewport issues on mobile browsers */
+  /* -webkit-text-size-adjust: 100%; */
+  /* -ms-text-size-adjust: 100%; */
+/* Loading states and micro-interactions */
+.loading-dots::after {
+  content: '';
+  animation: loading-dots 1.5s infinite;
+}
+
+  /* Fallback for older browsers */
+  /* color: #22c55e; */
+/* } */
+
+/* Ensure gradient text works in Firefox */
+@-moz-document url-prefix() {
+  .text-gradient {
+    color: #22c55e;
+  }
+}
+@keyframes loading-dots {
+  0%, 20% { content: ''; }
+  40% { content: '.'; }
+  60% { content: '..'; }
+  80%, 100% { content: '...'; }
+}
+
+/* Enhanced button interactions */
+/* Focus styles for accessibility */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}
+
+/* Fix for sticky elements on iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+  .sticky {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+/* Performance optimizations */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent layout shift */
+.aspect-ratio-16-9 {
+  aspect-ratio: 16 / 9;
+}
+
+/* Production optimizations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  /* Ensure visibility in high contrast mode */
+  border: 2px solid transparent;
+}
+/* Fix for Internet Explorer and Edge Legacy */
+@media screen and (-ms-high-contrast: active) {
+  button:focus,
+  a:focus {
+    outline: 2px solid;
+  }
+}
+  /* Improve image loading performance */
+  /* loading: lazy; */
+  /* Fix for Safari image sizing issues */
+  /* object-fit: cover; */
+/* Fix for older browser support */
+@supports not (aspect-ratio: 16 / 9) {
+  .aspect-ratio-16-9 {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  
+  .aspect-ratio-16-9 > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+    /* scroll-behavior: auto !important; */
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .bg-primary-50 {
+    background-color: #ffffff;
+  }
+  
+  .text-neutral-600 {
+    color: #000000;
+  }
+  
+  button {
+    border: 2px solid;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+}
+
+/* Fix for mobile Safari viewport units */
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
