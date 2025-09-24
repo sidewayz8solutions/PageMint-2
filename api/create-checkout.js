@@ -35,7 +35,7 @@ export default async function handler(req, res) {
       mode: 'payment',
       success_url: successUrl || `https://${req.headers.host}/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: cancelUrl || `https://${req.headers.host}/cancel`,
-      customer_email: customerEmail,
+      ...(customerEmail && { customer_email: customerEmail }),
       metadata: {
         priceId: priceId,
       },
