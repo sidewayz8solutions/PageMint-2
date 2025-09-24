@@ -3,7 +3,7 @@
     { "src": "/[^.]+", "dest": "/", "status": 200 }
   ],
   "functions": {
-    "netlify/functions/download-handler.js": {
+    "api/download-handler.js": {
       "maxDuration": 30
     }
   },
