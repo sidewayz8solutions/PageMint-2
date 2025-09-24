@@ -34,19 +34,19 @@ function Navigation() {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 will-change-transform ${
-      scrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-white/90'
+      scrolled ? 'bg-black/95 backdrop-blur-sm shadow-lg' : 'bg-black/90'
     }`}>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 min-h-[64px]">
           <div className="flex items-center gap-2">
             <img
-              src="/pagemint-logo.svg"
+              src="/123.png"
               alt="PageMint Logo"
               className="h-8 w-8"
             />
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-xl font-bold text-neutral-900 hover:text-primary-600 transition-colors mobile-touch-target flex items-center"
+              className="text-xl font-bold text-white hover:text-green-400 transition-colors mobile-touch-target flex items-center"
             >
               PageMint
             </button>
@@ -54,33 +54,33 @@ function Navigation() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-            <button 
+            <button
               onClick={() => scrollToSection('showcase')}
-              className="text-neutral-600 hover:text-primary-600 transition-colors font-medium mobile-touch-target"
+              className="text-gray-300 hover:text-green-400 transition-colors font-medium mobile-touch-target"
             >
               Templates
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('features')}
-              className="text-neutral-600 hover:text-primary-600 transition-colors font-medium mobile-touch-target"
+              className="text-gray-300 hover:text-green-400 transition-colors font-medium mobile-touch-target"
             >
               Features
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('pricing')}
-              className="text-neutral-600 hover:text-primary-600 transition-colors font-medium mobile-touch-target"
+              className="text-gray-300 hover:text-green-400 transition-colors font-medium mobile-touch-target"
             >
               Pricing
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('faq')}
-              className="text-neutral-600 hover:text-primary-600 transition-colors font-medium mobile-touch-target"
+              className="text-gray-300 hover:text-green-400 transition-colors font-medium mobile-touch-target"
             >
               FAQ
             </button>
-            <button 
+            <button
               onClick={handlePurchase}
-              className="bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors mobile-touch-target whitespace-nowrap"
+              className="bg-green-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-green-400 transition-colors mobile-touch-target whitespace-nowrap"
             >
               Get Templates
             </button>
@@ -90,7 +90,7 @@ function Navigation() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-neutral-600 hover:text-neutral-900 transition-colors mobile-touch-target p-2"
+              className="text-gray-300 hover:text-white transition-colors mobile-touch-target p-2"
               aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
