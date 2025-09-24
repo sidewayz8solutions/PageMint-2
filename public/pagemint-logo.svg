@@ -1,0 +1,43 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="400" height="400" fill="#0F172A"/>
+  
+  <!-- Glowing effect background -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Leaf icon with glow -->
+  <g filter="url(#glow)">
+    <!-- Leaf outline -->
+    <path d="M200 120C220 120 240 130 255 145C270 160 280 180 280 200C280 220 270 240 255 255C240 270 220 280 200 280C180 280 160 270 145 255C130 240 120 220 120 200C120 180 130 160 145 145C160 130 180 120 200 120Z" 
+          stroke="#10F981" 
+          stroke-width="8" 
+          fill="none"/>
+    
+    <!-- Leaf veins -->
+    <path d="M200 140L200 260" stroke="#10F981" stroke-width="6" stroke-linecap="round"/>
+    <path d="M200 160L170 180" stroke="#10F981" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200 180L175 200" stroke="#10F981" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200 200L170 220" stroke="#10F981" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200 160L230 180" stroke="#10F981" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200 180L225 200" stroke="#10F981" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200 200L230 220" stroke="#10F981" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- PageMint text with glow -->
+  <g filter="url(#glow)">
+    <text x="200" y="340" 
+          font-family="Arial, sans-serif" 
+          font-size="48" 
+          font-weight="bold" 
+          fill="#10F981" 
+          text-anchor="middle">PageMint</text>
+  </g>
+</svg>
