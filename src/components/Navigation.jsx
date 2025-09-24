@@ -17,7 +17,7 @@ function Navigation() {
     const element = document.getElementById(sectionId);
     if (element) {
       const headerHeight = 80;
-      const elementPosition = element.getBoundingClientTop() + window.pageYOffset;
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
       const offsetPosition = elementPosition - headerHeight;
 
       window.scrollTo({

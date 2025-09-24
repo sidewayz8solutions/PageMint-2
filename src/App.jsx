@@ -8,7 +8,7 @@ import TestimonialsSection from './components/TestimonialsSection';
 import FAQSection from './components/FAQSection';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
-import DatabaseStatus from './components/DatabaseStatus';
+
 
 function App() {
   return (
@@ -38,7 +38,6 @@ function App() {
         </section>
       </main>
       <Footer />
-      <DatabaseStatus />
     </div>
   );
 }
