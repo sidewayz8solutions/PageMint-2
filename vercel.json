@@ -1,5 +1,21 @@
 {
+  "functions": {
+    "api/create-checkout.js": {
+      "maxDuration": 30
+    },
+    "api/verify-payment.js": {
+      "maxDuration": 30
+    }
+  },
   "routes": [
-    { "src": "/[^.]+", "dest": "/", "status": 200 }
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/[^.]+",
+      "dest": "/",
+      "status": 200
+    }
   ]
 }
