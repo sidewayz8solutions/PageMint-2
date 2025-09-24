@@ -4,7 +4,7 @@ import HeroSection from './components/HeroSection';
 import TemplateShowcase from './components/TemplateShowcase';
 import FeaturesSection from './components/FeaturesSection';
 import PricingSection from './components/PricingSection';
-import TestimonialsSection from './components/TestimonialsSection';
+import BrandShowcase from './components/BrandShowcase';
 import FAQSection from './components/FAQSection';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
@@ -27,8 +27,8 @@ function App() {
         <section id="pricing">
           <PricingSection />
         </section>
-        <section id="testimonials">
-          <TestimonialsSection />
+        <section id="showcase-brand">
+          <BrandShowcase />
         </section>
         <section id="faq">
           <FAQSection />

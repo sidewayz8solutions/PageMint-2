@@ -29,10 +29,7 @@ function FAQSection() {
       question: "Will there be updates?",
       answer: "Definitely! Your purchase includes lifetime updates at no additional cost. New templates, improvements, and feature additions are delivered automatically to all customers."
     },
-    {
-      question: "Can I get help with setup?",
-      answer: "Absolutely! We provide comprehensive documentation, video tutorials, and email support. Plus, our active community forum connects you with other PageMint users for tips and inspiration."
-    }
+
   ];
 
   const toggleFAQ = (index) => {
