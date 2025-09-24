@@ -39,8 +39,12 @@ function Navigation() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 min-h-[64px]">
           <div className="flex items-center gap-2">
-            <Leaf className="h-6 w-6 text-primary-600" />
-            <button 
+            <img
+              src="/pagemint-logo.svg"
+              alt="PageMint Logo"
+              className="h-8 w-8"
+            />
+            <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="text-xl font-bold text-neutral-900 hover:text-primary-600 transition-colors mobile-touch-target flex items-center"
             >

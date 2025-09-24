@@ -6,9 +6,24 @@ function HeroSection() {
     <section className="relative overflow-hidden bg-gradient-to-br from-primary-50 via-white to-accent-50 py-16 sm:py-20 lg:py-28 px-4 sm:px-0">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center pt-16 sm:pt-0">
-          <div className="inline-flex items-center gap-3 mb-8">
-            <Leaf className="h-8 w-8 text-primary-600" />
-            <h1 className="text-xl sm:text-2xl font-bold text-neutral-900">PageMint</h1>
+          <div className="flex flex-col items-center mb-8">
+            <div className="inline-flex items-center gap-4 mb-3">
+              <img
+                src="/pagemint-logo.svg"
+                alt="PageMint Logo"
+                className="h-12 w-12 sm:h-16 sm:w-16"
+              />
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900">PageMint</h1>
+            </div>
+            <a
+              href="https://www.mintypage.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-lg sm:text-xl font-semibold text-primary-600 hover:text-primary-700 transition-colors"
+            >
+              www.mintypage.com
+              <ArrowRight className="h-4 w-4" />
+            </a>
           </div>
           <div className="inline-flex items-center gap-2 rounded-full bg-primary-100 px-4 py-2 text-sm font-medium text-primary-700 mb-8">
             <Sparkles className="h-4 w-4" />
