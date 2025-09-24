@@ -16,6 +16,7 @@
     "test:e2e:headed": "playwright test --headed"
   },
   "dependencies": {
+    "@genkit-ai/mcp": "^1.19.3",
     "@relume_io/relume-ui": "latest",
     "@stripe/stripe-js": "^2.4.0",
     "@supabase/supabase-js": "^2.57.4",
